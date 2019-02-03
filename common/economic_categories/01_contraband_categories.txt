@@ -1,7 +1,13 @@
 # sets up new criminal categories
 
+#sets up mixologists for Chemical Dependancy civic
+planet_mixologists = {
+	icon = "job_researcher"
+	parent = planet_jobs
+}
+
 planet_contraband_worker = {
-	#icon = some_thing (change when image files available)
+	icon = "foundry_worker"
 	parent = planet_jobs
 }
 
