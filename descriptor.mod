@@ -1,0 +1,9 @@
+name="Contraband"
+path="mod/contraband"
+tags={
+	"Economy"
+	"Buildings"
+	"Technologies"
+	"Events"
+}
+supported_version="2.2.4"

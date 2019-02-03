@@ -1,0 +1,29 @@
+# sets up new criminal categories
+
+planet_contraband_worker = {
+	#icon = some_thing (change when image files available)
+	parent = planet_jobs
+}
+
+pop_category_goons = {
+	parent = planet_jobs
+}
+
+pop_category_master_criminals = {
+	parent = planet_pops
+}
+
+# defines a new job called goons
+
+planet_jobs_goons = {
+	parent = planet_jobs
+}
+
+planet_jobs_criminal_masterminds = {
+	parent = planet_jobs
+}
+
+# sets up a overall category called contraband
+planet_contraband = {
+	parent = planets
+}

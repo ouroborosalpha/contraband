@@ -1,0 +1,99 @@
+#building_hydroponics_farm = {
+#	base_buildtime = 360
+#
+#	category = resource
+#	
+#	potential = {
+#		NOT = { is_planet_class = pc_machine }
+#		NOT = { has_modifier = resort_colony }
+#	}
+#
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+#			owner = { is_regular_empire = yes }
+#		}
+#		modifier = {
+#			job_farmer_add = 2
+#		}
+#	}
+#
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+##			owner = { is_gestalt = yes }
+#		}
+#		modifier = {
+##			job_agri_drone_add = 2
+#		}
+#	}
+#	
+#	resources = {
+#		category = planet_buildings
+#		cost = {
+#			minerals = 300
+#		}
+#		upkeep = {
+#			energy = 2
+#		}
+#	}	
+#	
+#	triggered_desc = {
+#		trigger = {
+#			exists = owner
+#			owner = { is_gestalt = yes }
+#		}
+#		text = job_agri_drone_effect_desc
+#	}
+#	triggered_desc = {
+#		trigger = {
+#			exists = owner
+#			owner = { is_gestalt = no }
+#		}
+#		text = job_farmer_effect_desc
+#	}
+#	
+#	prerequisites = {
+#		"tech_hydroponics"
+#	}
+#	
+#	ai_weight = {
+#		weight = 2
+#		modifier = 
+#		{
+#			factor = 5
+#			owner = { 
+#				has_monthly_income = {
+#					resource = food
+#					value < 5
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 0
+#			owner = {
+#				OR = {
+#					is_mechanical_empire = no
+#					AND = {
+#						is_mechanical_empire = yes
+#						OR = {
+#							has_civic = civic_machine_servitor
+#							has_civic = civic_machine_assimilator
+#						}
+#					}
+#				}
+#				has_monthly_income = {
+#					resource = energy
+#					value < 2
+#				}
+#			}
+#		}
+#	}
+#
+##	ai_resource_production = {
+#		food = 1
+#		trigger = {
+#			always = yes
+#		}
+#	}
+#}
