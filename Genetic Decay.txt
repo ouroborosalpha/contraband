@@ -1,0 +1,7 @@
+Genetic Decay - Civic - Cannot be removed after game start.
+
+"This race has suffered irreperable genome damage to the point that they cannot reproduce organically. Instead, they weave future generations in Biological Looms from banks of preserved genetic information."
+
+- Pops do not grow naturally over time. Instead, gain access to a new building - Genetic Loom - that allows the creation of new pops.
+- Leader Lifespan reduced by 10 years.
+- Unlocks a Special Research Project to reverse the decay.

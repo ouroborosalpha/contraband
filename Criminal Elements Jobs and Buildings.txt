@@ -1,0 +1,91 @@
+Jobs
+
+
+Title: Grunt
+Strata: Worker
+Input: -
+Output: 1 Contraband, 2 Crime.
+
+Title: Distributor
+Strata: Specialist
+Input: 2 Contraband
+Output: 2 Consumer Goods, 4 Amenities, 4 Crime.
+
+Title: Informant
+Strata: Specialist
+Input: 2 Contraband
+Output: 2 Research Output, 2 Unity, 4 Crime.
+
+Title: Smuggler
+Strata: Specialist	
+Input: 2 Contraband
+Output: 2 Alloys, 4 Trade Value, 4 Crime.
+
+Title: Synthesist
+Strata: Specialist
+Input: 6 Minerals
+Output: 4 Contraband, 4 Crime.
+
+Title: Underlord
+Strata: Ruler
+Input: -
+Output: 20 Trade Value, 50 Crime.
+
+
+
+
+Buildings
+
+Name: Subterranean Slums
+Effects: +8 Housing
+Job(s): 2 Goons
+>>>
+Name: Undercity
+Required: Planetary Capital
+Effects: +12 Housing
+Job(s): 4 Goons
+
+Name: Freehold
+Job(s): 4 Goons
+>>>
+Name: Criminal Haven
+Required: Planetary Capital
+Job(s): 8 Goons
+
+Name: Warehouse Network
+Job(s): 2 Distributors
+>>>
+Name: Shell Corporation
+Required: Planetary Capital
+Job(s): 4 Distributors
+
+Name: Private Dock
+Job(s): 2 Smugglers
+>>>
+Name: Private Spaceport
+Required: Planetary Capital
+Job(s): 4 Smugglers
+
+Name: Safe House
+Job(s): 2 Informants
+>>>
+Name: Luxury Bunker
+Required: Planetary Capital
+Job(s): 4 Informants
+
+Name: Hidden Laboratory
+Job(s): 2 Synthecist
+>>>
+Name: Secret Facility
+Required: Planetary Capital
+Job(s): 4 Synthecist
+
+Name: Fortified Compound
+Required: Planetary Capital
+Effects: Increases Planetary Trade Value by 5%. Planetary-Unique.
+Job(s): 1 Underlord
+>>>
+Name: Seat of Power
+Required: System Capital-Complex
+Effects: Increases Planetary Trade Value by 10%. Enables additional edicts, e.g. "Convert excess Contraband into Influence at a rate of 3 = 0.1 per month". Planetary-Unique.
+Job(s): 1 Underlord, 1 Informant, 2 Goons
