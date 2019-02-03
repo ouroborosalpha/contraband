@@ -1,0 +1,17 @@
+trait_chemical_dependancy = { #blue
+	cost = 0
+	initial = yes
+	modification = no
+	randomized = no
+
+	allowed_archetypes = { BIOLOGICAL }
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.15 # change this from minerals to elixir
+	potential_crossbreeding_chance = 1.0
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
