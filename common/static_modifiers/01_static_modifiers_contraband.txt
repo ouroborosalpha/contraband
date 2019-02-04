@@ -1,0 +1,2 @@
+#reduces happiness by 50%, need to implement purge
+elixir_defecit = { pop_happiness = -0.50 } 
