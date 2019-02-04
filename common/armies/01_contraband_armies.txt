@@ -1,0 +1,29 @@
+# Chemical Corps
+chemical_corps_army = {
+	damage = 1.25
+	health = 1.25
+	morale = 1.25
+	morale_damage = 1.25
+	collateral_damage = 1.25
+	war_exhaustion = 1.0
+	time = 90
+	has_species = yes
+
+	icon_frame = 11
+
+	resources = {
+		category = armies
+		cost = {
+			elixir = 50
+		}
+
+		upkeep = {
+			elixir = 2
+		}
+	}
+
+	potential = {
+		owner = { has_trait = trait_chemical_dependency }
+		}
+	}
+}
