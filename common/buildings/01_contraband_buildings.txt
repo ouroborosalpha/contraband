@@ -37,7 +37,7 @@ building_synthesis_lab = {
 	}
 	
 	prerequisites = {
-		"trait_chemical_dependency"
+		"trait_chemical_dependance"
 	}
 	
 	ai_weight = {
