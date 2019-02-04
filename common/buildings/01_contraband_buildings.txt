@@ -2,11 +2,12 @@ building_synthesis_lab = {
 	base_buildtime = 360
 
 	category = resource
-	
 	potential = {
 		NOT = { is_planet_class = pc_machine }
 		NOT = { has_modifier = resort_colony }
 	}
+
+upgrades = { building_synthesis_complex }
 
 	triggered_planet_modifier = {
 		potential = {
@@ -36,19 +37,19 @@ building_synthesis_lab = {
 		text = job_mixologist_effect_desc
 	}
 	
-	prerequisites = {
-		"trait_chemical_dependency"
-	}
+#	prerequisites = { 
+#		"trait_chemical_dependency"
+#	}
 	
 	ai_weight = {
 		weight = 0
 		}
 	}
 
-	ai_resource_production = {
-		food = 0
-		trigger = {
-			always = no
-		}
-	}
+	#ai_resource_production = {
+	#	food = 0
+	#	trigger = {
+	#		always = no
+	#	}
+	#}
 }
