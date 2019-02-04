@@ -1,13 +1,13 @@
 elixir = {
-	tradable = yes
-	market_amount = 10 #tweak
-	market_price = 500 #tweak
+	tradable = no
+	#market_amount = 10 #tweak
+	#market_price = 500 #tweak
 	max = 15000        #tweak
 	
 	deficit_modifier = elixir_deficit
 	
 	ai_weight = {
-		weight = 10
+		weight = 0
 	}
 
 	ai_wants = {

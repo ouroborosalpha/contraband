@@ -1,0 +1,11 @@
+# Elixir
+elixir = {
+	tradable = no
+	max = 2000
+	
+	deficit_modifier = elixir_deficit #found in static modifiers
+	
+	ai_weight = {
+		weight = 0
+	}
+}
