@@ -1,0 +1,88 @@
+Chemical Dependency - Civic - Cannot be removed after game start.
+Requirements: Cannot have "Syncretic Evolution" or "Mechanist".
+
+"Initially developed as an enhancement aid, over the centuries the members of this species have grown chemically dependent upon a physiology-altering drug and can no longer survive without it."
+
+- Leader Lifespan +10 years.
+- All Pops consume Elixir. When Elixir runs out, Pops start being purged. 
+- While in negative Elixir production, Crime and Deviance increase. While generating high excess Elixir, pops have increased Happiness and Productivity.
+- Grants access to special Buildings that produce Elixir.
+- Grants access to special Edicts, Armies, Technologies and Planetary Decisions that consume Elixir.
+- Start with one Synthesis Lab on your home world and 200 Elixir stored.
+
+
+
+Synthesis Lab
+Upkeep: 2 Energy Credits
+Requires: Planetary Administration.
+Provides: 2 Mixologist jobs.
+> > >
+Synthesis Complex
+Upkeep: 4 Energy Credits
+Requires: Planetary Capital.
+Provides: 4 Mixologist jobs.
+
+Cold Storage Facility
+Upkeep: 2 Energy Credits
+Planetary Unique. Requires: Planetary Capital.
+Planet Modifier: Increases all Elixir gained from jobs by 5%.
+Empire Modifier: Increases Elixir storage limit by 500.
+> > >
+Deep Freeze Compound
+Upkeep: 3 Energy Credits.
+Planetary Unique. Requires: System Capital-Complex.
+Planet Modifier: Increases all Elixir gained from jobs by 10%.
+Empire Modifier: Increases Elixir storage limit by 1000.
+Provides: 1 Administrator Job.
+
+
+Mixologist (Specialist Job)
+Requires: 6 Minerals, 1 Consumer Goods
+Produces: 10 Elixir
+
+Elixir World (Colony Designation)
+Provides: +5% Elixir Output. +5% Happiness.
+Weight: +2 per Synthesis Lab (up to 10). +2.5 per Synthesis Complex (up to 10). +2 per Cold Storage Facility or Deep Freeze Compound (up to 1).
+
+
+
+Edicts:
+
+Elixir Austerity: All pops consume 0.5 Elixir instead of 1 Elixir. Reduces happiness and all job outputs by 15%. (A)
+
+Adaptive Analogues: Spend 1000 Elixir. For 10 years, Habitability of all world types increased by 10%. (B)
+
+Additive Aphrodesiacs: Spend 1000 Elixir. For 10 years, Pop Growth Rate on all worlds increased by 10%. (B)
+
+Military Stockpile: Spend 1000 Elixir. For 10 years, Ship Fire Rate increased by 5% and Army Damage increased by 15%. (B)
+
+Chemical Cognition: Spend 1000 Elixir. For 10 years, Research output from jobs increased by 10% and Anomaly Research Speed increased by 10%. (B)
+
+Special Dispensation: For 5 years, all Specialists consume an additional 1 Elixir per month and have their output increased by 10%. (C)
+
+Worker Benefits: For 5 years, all Workers consume an additional 1 Elixir per month and have their output increased by 10%. (C)
+
+
+* Edicts marked (A) are mutually exclusive to all other Chemical Dependency Edicts
+* Edicts marked (B) are mutually exclusive to other Chemical Dependency Edicts marked (B).
+* Edicts marked (C) are mutually exclusive to other Chemical Dependency Edicts marked (C).
+
+
+
+Army Type: Chemical Corps
+Build Cost: 50 Elixir
+Build Time: 90
+Army Damage: 2.25 - 4.50
+Morale Damage: 2.25 - 4.50
+Collateral: 125%
+Health Pool: 250
+Morale Pool: 250
+Maintenance: 2 Elixir
+Description: "Dosed to the brink of madness with experimental, concentrated forms of Elixir, these chemically-enhanced super soldiers 
+are a formiddable battlefield force, if a little unpredictable and temperamental upon their return from the front lines."
+
+
+
+
+
+
