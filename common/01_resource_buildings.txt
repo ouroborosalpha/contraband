@@ -1,0 +1,54 @@
+building_synthesis_lab = {
+	base_buildtime = 360
+
+	category = resource
+	
+	potential = {
+		NOT = { is_planet_class = pc_machine }
+		NOT = { has_modifier = resort_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_mixologist_add = 2
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+		upkeep = {
+			energy = 2
+		}
+	}	
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_mixologist_effect_desc
+	}
+	
+	prerequisites = {
+		"trait_chemical_dependency"
+	}
+	
+	ai_weight = {
+		weight = 0
+		}
+	}
+
+	ai_resource_production = {
+		food = 0
+		trigger = {
+			always = no
+		}
+	}
+}
