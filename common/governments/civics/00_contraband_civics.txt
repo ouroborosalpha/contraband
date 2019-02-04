@@ -23,27 +23,6 @@ civic_chemical_dependance = {
          
         
         possible = {
-            ethics = {
-                value = ethic_fanatic_xenophobe
-                OR = { #available to all ethics
-                    value = ethic_militarist
-                    value = ethic_spiritualist
-                    value = ethic_authoritarian
-                    value = ethic_egalitarian
-                    value = ethic_xenophobe
-                    value = ethic_xenophile
-                    value = ethic_pacifist
-                    value = ethic_materialist
-                    value = ethic_gestalt_conciousness
-                    value = ethic_fanatic_militarist
-                    value = ethic fanatic_spiritualist
-                    value = ethic_fanatic_authoritarian
-                    value = ethic_fanatic_egalitatian
-                    value = ethic fanatic_pacifist
-                    value = ethic_fanatic_materialist
-                }		
-            }
-            
             civics = { nor = { #unavailable to syncretic and synthetic species
                 value = civic_mechanist
                 value = civic_syncretic_evolution
