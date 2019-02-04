@@ -7,7 +7,7 @@ trait_chemical_dependancy = { #blue
 	allowed_archetypes = { BIOLOGICAL }
 
 	modifier = {
-		planet_jobs_minerals_produces_mult = 0.15 # change this from minerals to elixir
+		planet_jobs_elixir_produces_mult = 0.15 # change this from minerals to elixir
 	potential_crossbreeding_chance = 1.0
 	}
 
