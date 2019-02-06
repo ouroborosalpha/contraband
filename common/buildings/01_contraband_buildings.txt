@@ -1,13 +1,17 @@
 building_synthesis_lab = {
 	base_buildtime = 360
 
+	#allow = { owner = { has_civic = civic_chemical_dependance }}
+
 	category = resource
 	potential = {
+		owner = { has_civic = civic_chemical_dependance }
 		NOT = { is_planet_class = pc_machine }
 		NOT = { has_modifier = resort_colony }
 	}
 
-upgrades = { building_synthesis_complex }
+	upgrades = { building_synthesis_complex }
+	
 
 	triggered_planet_modifier = {
 		potential = {
@@ -36,11 +40,7 @@ upgrades = { building_synthesis_complex }
 		}
 		text = job_mixologist_effect_desc
 	}
-	
-#	prerequisites = { 
-#		"trait_chemical_dependency"
-#	}
-	
+
 	ai_weight = {
 		weight = 0
 		}
@@ -52,4 +52,53 @@ upgrades = { building_synthesis_complex }
 	#		always = no
 	#	}
 	#}
-}
+
+
+building_synthesis_complex = {
+	base_buildtime = 360
+	can_build = no
+	
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+
+	category = resource
+	potential = {
+		NOT = { is_planet_class = pc_machine }
+		NOT = { has_modifier = resort_colony }
+	}
+
+	#upgrades = { building_synthesis_complex }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_mixologist_add = 4
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+		upkeep = {
+			energy = 4
+		}
+	}	
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_mixologist_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		}
+	}
