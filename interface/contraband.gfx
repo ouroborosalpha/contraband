@@ -1,0 +1,4 @@
+spriteType = {
+    name = "GFX_resource_elixir"
+    texturefile = "gfx/interface/icons/resources/exotic_gases.dds"
+}
